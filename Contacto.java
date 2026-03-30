@@ -13,4 +13,14 @@ public class Contacto {
         this.banco = banco;
         this.favorito = false;
     }
+
+    public void mostrarContacto() {
+        System.out.println("=== Contacto ===");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Cuenta: " + cuentaDestino);
+        System.out.println("Banco: " + banco);
+        System.out.println("Favorito: " + (favorito ? "⭐ Favorito" : "Sin marcar"));
+    }
+
+    
 }
