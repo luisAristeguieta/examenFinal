@@ -22,5 +22,9 @@ public class Contacto {
         System.out.println("Favorito: " + (favorito ? "⭐ Favorito" : "Sin marcar"));
     }
 
+    public void marcarFavorito() {
+        favorito = true;
+        System.out.println(nombre + " agregado a favoritos. ⭐");
+    }
     
 }
