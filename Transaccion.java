@@ -22,6 +22,10 @@ public class Transaccion {
     }
 
     public void aplicarComision(double porcentaje) {
+        if (porcentaje < 0) {
+        System.out.println("Invalid commission percentage.");
+        return;
+        }
         double comision = monto * (porcentaje / 100);
         double total = monto + comision;
         System.out.printf("Comisión (%.1f%%): $%.2f%n", porcentaje, comision);
