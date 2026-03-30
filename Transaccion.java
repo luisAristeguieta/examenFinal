@@ -34,7 +34,7 @@ public class Transaccion {
 
     public void marcarFallida() {
         exitosa = false;
-        System.out.println("Transacción marcada como fallida.");
+        System.out.println("Transaction marked as failed.");
         System.out.printf("Monto afectado: $%.2f%n", monto);
     }
 
