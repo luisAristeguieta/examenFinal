@@ -26,5 +26,11 @@ public class Contacto {
         favorito = true;
         System.out.println(nombre + " agregado a favoritos. ⭐");
     }
-    
+
+    public void enviarDinero(double monto) {
+        System.out.println("Transferencia enviada:");
+        System.out.println("Destinatario: " + nombre);
+        System.out.println("Cuenta: " + cuentaDestino);
+        System.out.printf("Monto: $%.2f%n", monto);
+    }
 }
