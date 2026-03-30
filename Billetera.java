@@ -19,4 +19,10 @@ public class Billetera {
         System.out.printf("Saldo: $%.2f%n", saldo);
         System.out.println("Estado: " + (activa ? "Activa" : "Inactiva"));
     }
+
+    public void depositar(double monto) {
+        saldo += monto;
+        System.out.printf("Depósito exitoso: +$%.2f%n", monto);
+        System.out.printf("Nuevo saldo: $%.2f%n", saldo);
+    }
 }
