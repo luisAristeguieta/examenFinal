@@ -34,5 +34,5 @@ public class Contacto {
         System.out.printf("Monto: $%.2f%n", monto);
     }
 
-    --Agrega comentario intengrante en unificacion--
+    //--Agrega comentario intengrante en unificacion--
 }

@@ -32,7 +32,7 @@ public class Transaccion {
         System.out.printf("Monto total con comisión: $%.2f%n", total);
     }
 
-    --Agrego comentario para marcar la transacción como fallida--
+    //Agrego comentario para marcar la transacción como fallida--
 
     public void marcarFallida() {
         exitosa = false;
